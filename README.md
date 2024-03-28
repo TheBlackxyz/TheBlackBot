@@ -4,14 +4,8 @@
 <p align="center">
 
 <h1 align="center">
-  <b> 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐁𝐎𝐓</b>
+  <b> The Black Bot </b>
 </h1>
-
-[![Stars](https://img.shields.io/github/stars/TheBlackxyz/PROFESSOR-BOT?style=flat-square&color=yellow)](https://github.com/TheBlackxyz/PROFESSOR-BOT/stargazers)
-[![Forks](https://img.shields.io/github/forks/MrMKN/PROFESSOR-BOT?style=flat-square&color=orange)](https://github.com/MrMKN/PROFESSOR-BOT/fork)
-[![Size](https://img.shields.io/github/repo-size/TheBlackxyz/PROFESSOR-BOT?style=flat-square&color=green)](https://github.com/TheBlackxyz/PROFESSOR-BOT)  
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TheBlackxyz/PROFESSOR-BOT)   
-
 
 <details>
 <summary><b>Features</b></summary>
