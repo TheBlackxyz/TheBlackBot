@@ -112,9 +112,12 @@ broadcast - to broadcast a message to all Eva Maria users
 ```
 </details>
 
-## TELAGRAM SUPPORT 
-
-* https://t.me/TheBlackXYZ
+## SUPPORT 
+</p>
+<p align="center">
+<a href="https://www.instagram.com/the_black_xyz?igshid=YmMyMTA2M2Y="><img alt="replit" src="https://img.shields.io/badge/-Instagram-orange?style=for-the-badge&logo=instagram&logoColor=white"/></a> <a href="https://telegram.dog/TheBlackXYZBotz/TheBlackXYZ"><img alt="Telegram" src="https://img.shields.io/badge/TheBlackXYZBotz-2CA5E0?style=for-the-badge&logo=telegram&logoColor=green"/></a>
+<a href="https://youtube.com/@TheBlackXYZ?igshid=YmMyMTA2M2Y="><img alt="replit" src="https://img.shields.io/badge/-youtube-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+</p>
 
 <details>
 <summary><b>Adavnce Features Remove BG</b></summary>
