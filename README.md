@@ -1,5 +1,5 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗧𝗛𝗜𝗦+𝗜𝗦+𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑+𝐁𝐎𝐓!;𝗖𝗕𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+TheBlackXYZ;𝗔+𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟𝗟+𝗧𝗚+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
-<img src="https://telegra.ph/file/004ff614b43736f270e1c.jpg" alt="Lazy Princess Logo">
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗧𝗛𝗜𝗦+𝗜𝗦+𝗧𝗵𝗲𝗕𝗹𝗮𝗰𝗸𝗕𝗼𝘁+𝐁𝐎𝐓!;𝗖𝗕𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗵𝗲𝗕𝗹𝗮𝗰𝗸𝗫𝗬𝗭;𝗔+𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟𝗟+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
+<img src="https://graph.org/file/003a951cb93ddec63b8bf.jpg" alt="TheBlackBot Logo">
 </p>
 <p align="center">
 
@@ -116,5 +116,8 @@ broadcast - to broadcast a message to all Eva Maria users
 
 * https://t.me/TheBlackXYZ
 
-## Credit 💞
-Mkn Botz 
+<details>
+<summary><b>Adavnce Features Remove BG</b></summary>
+<p align="center">
+<img src="https://graph.org/file/f904f64b6694037387099.jpg" </p>
+</details>
