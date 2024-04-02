@@ -2,8 +2,9 @@ class script(object):
     START_TXT = """<b>✨ Hᴇʟʟᴏ {user}.
 
 Mʏ Nᴀᴍᴇ Is {bot}.
-Nᴏᴛᴇ :- Yᴏᴜ Asᴋ Mᴏᴠɪᴇs Aғᴛᴇʀ Oɴʟʏ  [𝟶𝟷/𝟶𝟺/𝟸𝟶𝟸𝟺 ] Bᴇᴄᴀᴜsᴇ Tʜɪs Is Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Sᴀᴍᴇ Dᴀᴛᴇ 🌹
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
+
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ.
+Nᴏᴛᴇ :- Yᴏᴜ Asᴋ Mᴏᴠɪᴇs Aғᴛᴇʀ Oɴʟʏ  [𝟶𝟷/𝟶𝟺/𝟸𝟶𝟸𝟺 ] Bᴇᴄᴀᴜsᴇ Tʜɪs Is Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Sᴀᴍᴇ Dᴀᴛᴇ 🌹</b>"""
     
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
