@@ -7,7 +7,7 @@
   <b> The Black Bot </b>
 </h1>
 
-<details>
+
 <summary><b>Features</b></summary>
 
 - [x] Auto Filter
@@ -38,9 +38,9 @@
 - [x] Custom Start Message
 - [x] Custom Button Alter Message
 - [x] Advanced Status (Disk, Cpu, Ram, Uptime..) In Image Type
-</details>
 
-<details>
+
+
 <summary><b>Variables</b></summary>
   
 ### Required Variables
@@ -65,7 +65,6 @@
 ### Url Shortner Variable
 * `SHORT_URL` : Url Of Shortner Site You Use
 * `SHORT_API` : Api Key Of Shortner Which You Use
-</details>
 
 <details>
 <summary><b>Deploy to Heroku</b></summary>
@@ -110,8 +109,7 @@ unban_user  - to unban a user.
 channel - to get list of total connected channels
 broadcast - to broadcast a message to all Eva Maria users
 ```
-</details>
-
+<details>
 ## SUPPORT 
 </p>
 <p align="center">
@@ -119,8 +117,8 @@ broadcast - to broadcast a message to all Eva Maria users
 <a href="https://youtube.com/@TheBlackXYZ?igshid=YmMyMTA2M2Y="><img alt="replit" src="https://img.shields.io/badge/-youtube-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
 </p>
 
-<details>
+
 <summary><b>Adavnce Features Remove BG</b></summary>
 <p align="center">
 <img src="https://graph.org/file/f904f64b6694037387099.jpg" </p>
-</details>
+
