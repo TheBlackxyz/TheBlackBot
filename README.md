@@ -1,6 +1,11 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗧𝗛𝗜𝗦+𝗜𝗦+𝗧𝗵𝗲𝗕𝗹𝗮𝗰𝗸𝗕𝗼𝘁+𝐁𝐎𝐓!;𝗖𝗕𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗵𝗲𝗕𝗹𝗮𝗰𝗸𝗫𝗬𝗭;𝗔+𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟𝗟+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
-<img src="https://graph.org/file/003a951cb93ddec63b8bf.jpg" alt="TheBlackBot Logo">
+<p align="center">
+  
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗧𝗛𝗜𝗦+𝗜𝗦+𝗧𝗵𝗲𝗕𝗹𝗮𝗰𝗸𝗕𝗼𝘁+𝐁𝐎𝐓!;𝗖𝗕𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗵𝗲𝗕𝗹𝗮𝗰𝗸𝗫𝗬𝗭;𝗔+𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟𝗟+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p> 
+
+<p align="center">
+<img src="https://graph.org/file/003a951cb93ddec63b8bf.jpg" alt="TheBlackBot Logo"> 
 </p>
+
 <p align="center">
 
 <h1 align="center">
@@ -80,7 +85,7 @@
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/MrMKN/PROFESSOR-BOT&env[WEBHOOK]=True&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[CHANNELS]&env[ADMINS]&env[PICS]&env[LOG_CHANNEL]&env[AUTH_CHANNEL]&env[MAX_RIST_BTNS]=10&env[CUSTOM_FILE_CAPTION]&env[DATABASE_URL]&env[DATABASE_NAME]=MknBotz&env[COLLECTION_NAME]=Telegram_files&env[SUPPORT_CHAT]&env[IMDB]=True&env[PM_IMDB]=True&env[IMDB_TEMPLATE]&env[IMDB_DELET_TIME]=900&env[SINGLE_BUTTON]=True&env[PMFILTER]=True&env[G_FILTER]=True&env[BUTTON_LOCK]=True&env[P_TTI_SHOW_OFF]=True&run_command=python%20bot.py&branch=main&name=mr-rofessor)              
 </details>
 
-<details>
+
 <summary><b>Basic Commands</b></summary>
 ```
 start - check bot alive
@@ -109,8 +114,10 @@ unban_user  - to unban a user.
 channel - to get list of total connected channels
 broadcast - to broadcast a message to all Eva Maria users
 ```
-<details>
-## SUPPORT 
+
+
+
+# SUPPORT PLEASE 🥺🥺❤️
 </p>
 <p align="center">
 <a href="https://www.instagram.com/the_black_xyz?igshid=YmMyMTA2M2Y="><img alt="replit" src="https://img.shields.io/badge/-Instagram-orange?style=for-the-badge&logo=instagram&logoColor=white"/></a> <a href="https://telegram.dog/TheBlackXYZBotz/TheBlackXYZ"><img alt="Telegram" src="https://img.shields.io/badge/TheBlackXYZBotz-2CA5E0?style=for-the-badge&logo=telegram&logoColor=green"/></a>
@@ -118,7 +125,7 @@ broadcast - to broadcast a message to all Eva Maria users
 </p>
 
 
-<summary><b>Adavnce Features Remove BG</b></summary>
+# Adavnce Features 
 <p align="center">
 <img src="https://graph.org/file/f904f64b6694037387099.jpg" </p>
 
