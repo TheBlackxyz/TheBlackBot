@@ -21,7 +21,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ℹ️ Hᴇʟᴩ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
         ],[
-            InlineKeyboardButton('ℹ️ BOT CHANNEL ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
+            InlineKeyboardButton('🙏BOT CHANNEL🙏', url=f"https://t.me/{temp.U_NAME}?start=help")
         ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
@@ -40,10 +40,11 @@ async def start(client, message):
             InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/TheBlackXYZ")
             ],[
-            InlineKeyboardButton('ℹ️ BOT CHANNEL ℹ️', url=f"https://t.me/TheBlackXYZBotz")
+            InlineKeyboardButton('🙏BOT CHANNEL🙏', url=f"https://t.me/TheBlackXYZBotz")
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+            
        ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ") 
         await asyncio.sleep(2)
@@ -78,7 +79,7 @@ async def start(client, message):
             InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/TheBlackXYZ")
             ],[
-            InlineKeyboardButton('ℹ️ BOT CHANNEL ℹ️', url=f"https://t.me/TheBlackXYZBotz")
+            InlineKeyboardButton('🙏BOT CHANNEL🙏', url=f"https://t.me/TheBlackXYZBotz")
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
