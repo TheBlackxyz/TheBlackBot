@@ -55,6 +55,9 @@ RemoveBG_API = environ.get("RemoveBG_API", "")
 SHORT_URL = environ.get("SHORT_URL")
 SHORT_API = environ.get("SHORT_API")
 
+# Rename Info ; If True Then Bot Rename File Else Not
+RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or Flase
+
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
