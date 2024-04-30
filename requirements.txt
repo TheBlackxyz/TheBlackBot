@@ -34,7 +34,8 @@ wheel
 ujson
 wget
 pytz
-
+#--rename--files--#
+hachoir
 
 
 
