@@ -228,7 +228,13 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
 🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
    
-  
+ PROGRESS_BAR = """\n
+╭━━━━❰ Black Renaming... ❱━➣
+┣⪼ 🗂️ : {1} | {2}
+┣⪼ ⏳️ : {0}%
+┣⪼ 🚀 : {3}/s
+┣⪼ ⏱️ : {4}
+╰━━━━━━━━━━━━━━━➣ """ 
  
 
 
