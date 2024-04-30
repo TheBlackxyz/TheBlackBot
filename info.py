@@ -52,8 +52,8 @@ BUTTON_LOCK = is_enabled(environ.get("BUTTON_LOCK", "True"), True)
 RemoveBG_API = environ.get("RemoveBG_API", "6uHvcoJhm3GUm787LbYbzF2R")
 
 # url shortner
-SHORT_URL = environ.get("SHORT_URL, 'api.onepagelink.in')
-SHORT_API = environ.get("SHORT_API, '993a512785c8a1df86d296ebdea8b65ce7abe90d')
+SHORT_URL = environ.get("SHORT_URL")
+SHORT_API = environ.get("SHORT_API")
 
 
 
