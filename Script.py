@@ -226,16 +226,10 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>
 🎭 Gᴇɴʀᴇꜱ: {genres}
 📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
-🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
+🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10
+👀 DATA Pass From - @TheBlackXYZ """
    
- PROGRESS_BAR = """\n
-╭━━━━❰ Black Renaming... ❱━➣
-┣⪼ 🗂️ : {1} | {2}
-┣⪼ ⏳️ : {0}%
-┣⪼ 🚀 : {3}/s
-┣⪼ ⏱️ : {4}
-╰━━━━━━━━━━━━━━━➣ """ 
- 
+
 
 
    
