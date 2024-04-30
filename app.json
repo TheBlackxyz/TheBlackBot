@@ -3,7 +3,7 @@
     "description": "The Telegram Autofilter Bot",
     "logo": "https://graph.org/file/fbba29617ed90d1c2edb6.jpg",
     "keywords": ["Telegram", "auto-filter", "TheBlackxyz"],
-    "repository": "https://github.com/TheBlackxyz/PROFESSOR-BOT",
+    "repository": "https://github.com/TheBlackxyz/TheBlackBot",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
