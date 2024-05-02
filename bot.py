@@ -13,7 +13,11 @@ from typing import Union, Optional, AsyncGenerator
 
 from plugins import web_server 
 from aiohttp import web
-
+#Auto Accept
+import logging, asyncio
+from pyrogram import Client, filters
+from pyrogram.errors import FloodWait
+from os import environ
 # Get logging configurations
 logging.config.fileConfig("logging.conf")
 logging.getLogger().setLevel(logging.INFO)
@@ -22,10 +26,6 @@ logger = logging.getLogger(__name__)
 
 
 #Auto Accept Request All channel & Groups ☺️
-import logging, asyncio
-from os import environ
-from pyrogram import Client, filters
-from pyrogram.errors import FloodWait
 
 logging.basicConfig(level=logging.ERROR)
        
