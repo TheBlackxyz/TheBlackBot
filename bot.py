@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 logging.basicConfig(level=logging.ERROR)
        
-SESSION = environ.get("SESSION", "")        
+SESSION = environ.get("SESSION", "BQHBYNQAcpX3MHTMMRKu3RuUjgNoYXmPxMJSDyGCyNvWTDUXt0V0PjyN_iMZhZwUj3-OX32JKRBtYxJb_9WZgQftI7Ubcq-WEhexse8q03elp8ZCfKMmDkyOZXYe8FsEEKjXvGaJZmxQa28mKbw1KaQhorjdvkmSHex--H8YYZHdGmrGNMpmSHdt200cjQoxfOaFF3EbSop86vAnCSy9O4VPGw1-J_D_JXjnL58UkYBGpRazFjAG4b-bFHeq3sw7YWGpqgpK4oN80hou7uSrw_03cYuTgOMa-UCyI4bzxYlceCC-dEBGxCpX6Dn3Kk5itrcWX2r3WD5FIpnz1gEpatf-ZugZMQAAAAGmZxi8AQ")        
 User = Client(name="AcceptUser", session_string=SESSION)
 
 
