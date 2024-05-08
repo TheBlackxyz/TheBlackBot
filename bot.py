@@ -115,10 +115,46 @@ class Bot(Client):
             messages = await self.get_messages(chat_id, list(range(current, current+new_diff+1)))
             for message in messages:
                 yield message
-                current += 1
+                current += 1 
+
+### chat gpt features 
+
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+
+# Define a function to handle the /start command
+def start(update, context):
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Hello! I'm  Chat gpt features in your bot.")
+
+# Define a function to handle text messages
+def echo(update, context):
+    context.bot.send_message(chat_id=update.effective_chat.id, text=update.message.text)
+
+def main():
+    # Create an Updater object with your bot's token
+    updater = Updater(token='BOT_TOKEN', use_context=True)
+
+    # Get the dispatcher to register handlers
+    dispatcher = updater.dispatcher
+
+    # Register handlers
+    start_handler = CommandHandler('start', start)
+    echo_handler = MessageHandler(Filters.text & (~Filters.command), echo)
+
+    dispatcher.add_handler(start_handler)
+    dispatcher.add_handler(echo_handler)
+
+    # Start the bot
+    updater.start_polling()
+
+    # Run the bot until you press Ctrl-C
+    updater.idle()
 
 
-        
+
+
+
+if __name__ == '__main__':
+main()
 Bot().run()
 logging.info("Bot Started....")
 User.run()
