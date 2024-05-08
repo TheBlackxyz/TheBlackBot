@@ -129,9 +129,9 @@ def start(update, context):
 def echo(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text=update.message.text)
 
-def main():
+def run():
     # Create an Updater object with your bot's token
-    updater = Updater(token='BOT_TOKEN', use_context=True)
+    updater = Updater(token='7086741692:AAGSf5dDrZxiTAhDMRsxNYV9HtlpupX_Q_E', use_context=True)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
@@ -153,8 +153,7 @@ def main():
 
 
 
-if __name__ == '__main__':
-main()
+
 Bot().run()
 logging.info("Bot Started....")
 User.run()
