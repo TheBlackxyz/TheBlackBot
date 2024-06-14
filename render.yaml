@@ -1,11 +1,11 @@
 services:
   # A Docker web service
   - type: web
-    name: Auto-search-tamil-bot
+    name: TheBlackBot
     env: python
     startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
-    repo: https://github.com/TeamHMT/Auto-search-tamil-bot.git # optional
+    repo: https://github.com/TheBlackxyz/TheBlackBot.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: web # optional (defaults to master)
