@@ -16,7 +16,7 @@ API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
-WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
+WEB_SUPPORT = bool(environ.get("WEBHOOK", True)) # for web support on/off
 PICS = (environ.get('PICS' ,'https://graph.org/file/517bc12dd5c1347df10f6.jpg')).split()
 UPTIME = time.time()
 
