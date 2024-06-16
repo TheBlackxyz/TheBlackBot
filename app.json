@@ -2,7 +2,19 @@
     "name": "TheBlackBot",
     "description": "The Telegram Autofilter Bot",
     "logo": "https://graph.org/file/fbba29617ed90d1c2edb6.jpg",
-    "keywords": ["Telegram", "auto-filter", "TheBlackxyz"],
+    "keywords": [
+      "telegram",
+      "auto-filter",
+      "filter",
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
+    ],
     "repository": "https://github.com/TheBlackxyz/TheBlackBot",
     "env":{
     "SESSION": {
