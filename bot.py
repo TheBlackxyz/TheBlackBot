@@ -23,43 +23,8 @@ logging.config.fileConfig("logging.conf")
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("cinemagoer").setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
+PORT = "8080"
 
-
-#Auto Accept Request All channel & Groups ☺️
-
-logging.basicConfig(level=logging.ERROR)
-       
-SESSION = environ.get("SESSION", "BQHBYNQAcpX3MHTMMRKu3RuUjgNoYXmPxMJSDyGCyNvWTDUXt0V0PjyN_iMZhZwUj3-OX32JKRBtYxJb_9WZgQftI7Ubcq-WEhexse8q03elp8ZCfKMmDkyOZXYe8FsEEKjXvGaJZmxQa28mKbw1KaQhorjdvkmSHex--H8YYZHdGmrGNMpmSHdt200cjQoxfOaFF3EbSop86vAnCSy9O4VPGw1-J_D_JXjnL58UkYBGpRazFjAG4b-bFHeq3sw7YWGpqgpK4oN80hou7uSrw_03cYuTgOMa-UCyI4bzxYlceCC-dEBGxCpX6Dn3Kk5itrcWX2r3WD5FIpnz1gEpatf-ZugZMQAAAAGmZxi8AQ")        
-User = Client(name="AcceptUser", session_string=SESSION)
-
-
-@User.on_message(filters.command(["run", "approve"], [".", "/"]))                     
-async def approve(client, message):
-    Id = message.chat.id
-    await message.delete(True)
- 
-    try:
-       while True: # create loop is better techniq to accept within seconds 💀
-           try:
-               await client.approve_all_chat_join_requests(Id)         
-           except FloodWait as t:
-               asyncio.sleep(t.value)
-               await client.approve_all_chat_join_requests(Id) 
-           except Exception as e:
-               logging.error(str(e))
-    except FloodWait as s:
-        asyncio.sleep(s.value)
-        while True:
-           try:
-               await client.approve_all_chat_join_requests(Id)         
-           except FloodWait as t:
-               asyncio.sleep(t.value)
-               await client.approve_all_chat_join_requests(Id) 
-           except Exception as e:
-               logging.error(str(e))
-
-    msg = await client.send_message(Id, "**Task Completed** ✓ **Approved Pending All Join Request**")
-    await msg.delete()
 
 class Bot(Client):
 
@@ -104,8 +69,7 @@ class Bot(Client):
     async def stop(self, *args):
         await super().stop()
         me = await self.get_me()
-        logger.info(f"{me.first_name} is_...  ♻️Restarting...")
-        logger.info(f"Bot Is Restarting ⟳...")
+        logger.info(f"Bot Is Restarting ⟳👍...")
 
     async def iter_messages(self, chat_id: Union[int, str], limit: int, offset: int = 0) -> Optional[AsyncGenerator["types.Message", None]]:                       
         current = offset
@@ -120,7 +84,6 @@ class Bot(Client):
 
 
 Bot().run()
-User.run()
 
 
 
