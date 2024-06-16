@@ -16,7 +16,7 @@ API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
-WEB_SUPPORT = bool(environ.get("WEBHOOK", True)) # for web support on/off
+WEB_SUPPORT = bool(environ.get("WEB_SUPPORT", True)) # for web support on/off
 PICS = (environ.get('PICS' ,'https://graph.org/file/517bc12dd5c1347df10f6.jpg')).split()
 UPTIME = time.time()
 
@@ -54,7 +54,7 @@ RemoveBG_API = environ.get("RemoveBG_API", "6uHvcoJhm3GUm787LbYbzF2R")
 # url shortner
 SHORT_URL = environ.get("SHORT_URL")
 SHORT_API = environ.get("SHORT_API")
-
+PORT = environ.get("PORT", "8080")
 
 
 # Others
