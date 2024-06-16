@@ -1,4 +1,5 @@
 #--Main----#
+git+https://github.com/TheBlackxyz/pyrogram
 tgcrypto==1.2.5
 aiofiles==22.1.0     
 aiohttp==3.8.3
@@ -19,9 +20,7 @@ youtube-search
 yt-dlp==2023.2.17
 
 #---imdb---#
-#cinemagoer==2023.5.1
-git+https://github.com/TheBlackxyz/cinemagoer
-git+https://github.com/TheBlackxyz/pyrogram
+cinemagoer==2023.5.1
 
 #---others----#
 opencv-python-headless==4.7.0.68
