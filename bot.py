@@ -13,17 +13,12 @@ from typing import Union, Optional, AsyncGenerator
 
 from plugins import web_server 
 from aiohttp import web
-#Auto Accept
-import logging, asyncio
-from pyrogram import Client, filters
-from pyrogram.errors import FloodWait
-from os import environ
+
 # Get logging configurations
 logging.config.fileConfig("logging.conf")
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("cinemagoer").setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
-PORT = "8080"
 
 
 class Bot(Client):
@@ -79,9 +74,10 @@ class Bot(Client):
             messages = await self.get_messages(chat_id, list(range(current, current+new_diff+1)))
             for message in messages:
                 yield message
-                current += 1 
+                current += 1
 
 
+        
 Bot().run()
 
 
