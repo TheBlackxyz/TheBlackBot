@@ -35,8 +35,3 @@ wheel
 ujson
 wget
 pytz
-# New Added 
-
-tornado~=6.4
-aiolimiter~=1.1.0
-httpx[socks]
