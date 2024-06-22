@@ -10,4 +10,3 @@ RUN mkdir /TheBlackBot
 WORKDIR /TheBlackBot
 COPY . /TheBlackBot
 CMD ["python", "bot.py"]
-EXPOSE 3306
