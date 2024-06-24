@@ -137,10 +137,10 @@ def list_to_str(k):
     else:
         return ' '.join(f'{elem}, ' for elem in k)
 
-__repo__ = "https://github.com/TheBlackxyz/PROFESSOR-BOT"
+__repo__ = "https://github.com/MrMKN/PROFESSOR-BOT"
 __version__ = "PROFESSOR-BOT ᴠ4.5.0"
 __license__ = "GNU GENERAL PUBLIC LICENSE V2"
-__copyright__ = "Copyright (C) 2023-present TheBlackxyz<https://github.com/TheBlackxyz>"
+__copyright__ = "Copyright (C) 2023-present MrMKN <https://github.com/MrMKN>"
 
 async def search_gagala(text):
     usr_agent = {
@@ -304,7 +304,7 @@ def get_time(seconds):
     return result
     
 async def get_shortlink(link):
-    url = f'https://earnpro.in/api'
+    url = f'{SHORT_URL}/api'
     params = {'api': SHORT_API, 'url': link}
     try:
         async with aiohttp.ClientSession() as session:
@@ -358,9 +358,3 @@ async def admin_check(message: Message) -> bool:
 
 async def admin_filter(filt, client, message):
     return await admin_check(message)
-
-
-
-
-
-
