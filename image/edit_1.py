@@ -4,7 +4,6 @@ import shutil
 import cv2
 import os
 
-
 async def bright(client, message):
     try:
         userid = str(message.chat.id)
