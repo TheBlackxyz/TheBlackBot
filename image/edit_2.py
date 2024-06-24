@@ -1,10 +1,8 @@
-from PIL import Image, ImageEnhance, ImageDraw
+from PIL import Image, ImageEnhance, ImageFilter 
 from pyrogram.enums import ChatAction
-import numpy as np
-import os
-from opencv-python import  cv2
 import shutil
-
+import cv2
+import os
 
 async def circle_with_bg(client, message):
     try:
