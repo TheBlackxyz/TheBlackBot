@@ -178,7 +178,7 @@
     },
     "buildpacks":
         [
-            {"url": "koyeb/python"}
+            {"url": "heroku/python"}
         ]      
 }
 
