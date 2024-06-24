@@ -3,7 +3,7 @@ from pyrogram.enums import ChatAction
 import numpy as np
 import requests
 import shutil
-import cv2
+from opencv-python import  cv2
 import io
 import os
 from info import RemoveBG_API 
