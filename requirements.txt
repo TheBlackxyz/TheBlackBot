@@ -25,4 +25,4 @@ wheel
 ujson
 wget
 pytz
-git+https://github.com/Joelkb/cinemagoer
+opencv-python
